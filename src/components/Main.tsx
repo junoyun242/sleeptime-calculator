@@ -62,7 +62,7 @@ function Main() {
     console.log(result);
   }, [currentDate, currentTime, currentHour, currentMinutes]);
   return (
-    <main className="py-6 flex flex-col justify-center items-center bg-gray-600 h-screen md:flex-row md:justify-evenly md:items-start">
+    <main className="py-6 flex flex-col items-center bg-gray-600 h-screen md:flex-row md:justify-evenly md:items-start">
       <div className="flex flex-col justify-center items-center bg-blue-500 text-gray-300 w-4/5 py-3 px-3 mb-8 md:w-2/5 md:mb-0">
         <h3 className="text-lg my-2">When will you sleep?</h3>
         <input
