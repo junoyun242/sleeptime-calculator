@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/sleeptime-calculator/static/css/main.22b85526.chunk.css",
+    "main.js": "/sleeptime-calculator/static/js/main.59e2f63a.chunk.js",
+    "main.js.map": "/sleeptime-calculator/static/js/main.59e2f63a.chunk.js.map",
+    "runtime-main.js": "/sleeptime-calculator/static/js/runtime-main.c298cf82.js",
+    "runtime-main.js.map": "/sleeptime-calculator/static/js/runtime-main.c298cf82.js.map",
+    "static/js/2.81628fc4.chunk.js": "/sleeptime-calculator/static/js/2.81628fc4.chunk.js",
+    "static/js/2.81628fc4.chunk.js.map": "/sleeptime-calculator/static/js/2.81628fc4.chunk.js.map",
+    "static/js/3.9a44278f.chunk.js": "/sleeptime-calculator/static/js/3.9a44278f.chunk.js",
+    "static/js/3.9a44278f.chunk.js.map": "/sleeptime-calculator/static/js/3.9a44278f.chunk.js.map",
+    "index.html": "/sleeptime-calculator/index.html",
+    "static/css/main.22b85526.chunk.css.map": "/sleeptime-calculator/static/css/main.22b85526.chunk.css.map",
+    "static/js/2.81628fc4.chunk.js.LICENSE.txt": "/sleeptime-calculator/static/js/2.81628fc4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c298cf82.js",
+    "static/js/2.81628fc4.chunk.js",
+    "static/css/main.22b85526.chunk.css",
+    "static/js/main.59e2f63a.chunk.js"
+  ]
+}
