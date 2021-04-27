@@ -33,7 +33,6 @@ function Main() {
       minute: currentMinutes,
     });
 
-    console.log(currentTime?.slice(3));
     setResult(date.format("YYYY-MM-DD hh:mm A"));
 
     switch (Number(date.format("e"))) {
@@ -59,11 +58,10 @@ function Main() {
         setWeekday("토");
         break;
     }
-    console.log(result);
   }, [currentDate, currentTime, currentHour, currentMinutes]);
   return (
-    <main className="py-6 flex flex-col items-center bg-gray-600 h-screen md:flex-row md:justify-evenly md:items-start">
-      <div className="flex flex-col justify-center items-center bg-blue-500 text-gray-300 w-4/5 py-3 px-3 mb-8 md:w-2/5 md:mb-0">
+    <main className="py-6 bg-gray-600 flex flex-col items-center h-screen md:flex-row md:justify-evenly md:items-start">
+      <div className="flex flex-col justify-center items-center bg-blue-600 text-gray-200 w-4/5 py-3 px-3 mb-8 md:w-2/5 md:mb-0 rounded-2xl shadow-2xl">
         <h3 className="text-lg my-2">When will you sleep?</h3>
         <input
           type="datetime-local"
@@ -87,9 +85,9 @@ function Main() {
           <p className="pl-1 pr-3">분</p>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center bg-purple-300 w-4/5 py-3 md:w-2/5">
+      <div className="flex flex-col justify-center items-center bg-purple-300 w-4/5 py-3 md:w-2/5 rounded-2xl shadow-2xl">
         <h3 className="text-lg my-2">You will wake up at</h3>
-        <div className="flex justify-center items-center my-2">
+        <div className="flex justify-center items-center my-2 text-lg text-red-900 font-bold">
           <p className="pr-2">{result}</p>
           <p>{weekday}</p>
         </div>

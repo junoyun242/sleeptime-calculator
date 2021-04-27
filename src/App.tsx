@@ -5,7 +5,7 @@ import "./assets/main.css";
 
 function App() {
   return (
-    <div>
+    <div style={{ fontFamily: "cursive" }}>
       <Header />
       <Main />
     </div>
